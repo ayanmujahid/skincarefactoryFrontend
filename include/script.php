@@ -23,34 +23,79 @@
   const slider = document.getElementById("categorySlider");
 
   function slideLeft() {
-    slider.scrollBy({ left: -300, behavior: 'smooth' });
+    slider.scrollBy({
+      left: -300,
+      behavior: 'smooth'
+    });
   }
 
   function slideRight() {
-    slider.scrollBy({ left: 300, behavior: 'smooth' });
+    slider.scrollBy({
+      left: 300,
+      behavior: 'smooth'
+    });
   }
 </script>
 
 <script>
-var swiper = new Swiper(".testimonial-slider", {
-  slidesPerView: 1.2,
-  spaceBetween: 30,
-  loop: true,
-  navigation: {
-    nextEl: ".testimonial-next",
-    prevEl: ".testimonial-prev",
-  },
-  breakpoints: {
-    992: {
-      slidesPerView: 1.5
+  var swiper = new Swiper(".testimonial-slider", {
+    slidesPerView: 1.2,
+    spaceBetween: 30,
+    loop: true,
+    navigation: {
+      nextEl: ".testimonial-next",
+      prevEl: ".testimonial-prev",
+    },
+    breakpoints: {
+      992: {
+        slidesPerView: 1.5
+      }
     }
-  }
-});
+  });
+</script>
+
+<script>
+  document.querySelectorAll('.product-thumbs img').forEach(img => {
+    img.onclick = () => {
+      document.querySelector('.product-main-img img').src = img.src;
+    }
+  });
+
+  document.querySelectorAll('.acc-item h6').forEach(header => {
+    header.onclick = () => {
+      header.nextElementSibling.classList.toggle('show');
+      header.nextElementSibling.style.display =
+        header.nextElementSibling.style.display === 'block' ? 'none' : 'block';
+    };
+  });
+</script>
+
+<script>
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+
+      this.classList.add('active');
+      document.getElementById(this.dataset.tab).classList.add('active');
+    });
+  });
+</script>
+<script>
+  document.getElementById("openReview").addEventListener("click", function() {
+    document.getElementById("reviewForm").style.display = "block";
+    this.style.display = "none";
+  });
+
+  document.getElementById("cancelReview").addEventListener("click", function() {
+    document.getElementById("reviewForm").style.display = "none";
+    document.getElementById("openReview").style.display = "inline-block";
+  });
 </script>
 
 
 
 
-  </body>
-</html>
+</body>
 
+</html>

@@ -11,7 +11,7 @@
         <div class="row">
 
             <!-- SIDEBAR -->
-            <div class="col-lg-3 ps-5 shop-sidebar">
+            <div class="col-lg-3 shop-sidebar">
 
                 <div class="filter-item">Category <span>+</span></div>
                 <div class="filter-item">Availability <span>+</span></div>
@@ -19,17 +19,18 @@
                 <div class="filter-item">Product type <span>+</span></div>
                 <div class="filter-item">Brand <span>+</span></div>
 
-                <button class="btn btn-dark w-100 my-4">Clear All</button>
+                <button class="btn-clear">Clear All</button>
 
-                <h5>Best Sellers</h5>
+                <h5 class="mt-4">Best Sellers</h5>
 
-                <div class="best-slider d-flex gap-3">
+                <div class="best-slider">
                     <img src="assets/images/na-mp-4.webp">
                     <img src="assets/images/na-mp-5.webp">
                     <img src="assets/images/na-mp-2.webp">
                 </div>
 
             </div>
+
 
             <!-- PRODUCTS -->
             <div class="col-lg-9 pe-5">
@@ -60,9 +61,10 @@
                             <small>Harp</small>
                             <h6>Face Moisturizer With Vitamin E</h6>
                             <strong>$380.00</strong>
-                            <button class="shop-btn btn btn-dark w-100 mt-2">Add to Cart</button>
+                            <button class="shop-btn">Add to Cart</button>
                         </div>
                     </div>
+
 
                     <div class="col-md-4">
                         <div class="product-box">
@@ -72,7 +74,7 @@
                             <small>Harp</small>
                             <h6>Nature's Organic Raw Cosmetic Product</h6>
                             <strong>$156.00</strong>
-                            <button class="shop-btn btn btn-dark w-100 mt-2">Add to Cart</button>
+                            <button class="shop-btn">Add to Cart</button>
                         </div>
                     </div>
 
@@ -84,7 +86,7 @@
                             <small>Splash</small>
                             <h6>Moisture Filling Shampoo</h6>
                             <strong>$175.00</strong>
-                            <button class="shop-btn btn btn-dark w-100 mt-2">Add to Cart</button>
+                            <button class="shop-btn">Add to Cart</button>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -95,7 +97,7 @@
                             <small>Harp</small>
                             <h6>Face Moisturizer With Vitamin E</h6>
                             <strong>$380.00</strong>
-                            <button class="shop-btn btn btn-dark w-100 mt-2">Add to Cart</button>
+                            <button class="shop-btn">Add to Cart</button>
                         </div>
                     </div>
 
@@ -107,7 +109,7 @@
                             <small>Harp</small>
                             <h6>Nature's Organic Raw Cosmetic Product</h6>
                             <strong>$156.00</strong>
-                            <button class="shop-btn btn btn-dark w-100 mt-2">Add to Cart</button>
+                            <button class="shop-btn">Add to Cart</button>
                         </div>
                     </div>
 
@@ -119,7 +121,7 @@
                             <small>Splash</small>
                             <h6>Moisture Filling Shampoo</h6>
                             <strong>$175.00</strong>
-                            <button class="shop-btn btn btn-dark w-100 mt-2">Add to Cart</button>
+                            <button class="shop-btn">Add to Cart</button>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -130,7 +132,7 @@
                             <small>Harp</small>
                             <h6>Face Moisturizer With Vitamin E</h6>
                             <strong>$380.00</strong>
-                            <button class="shop-btn btn btn-dark w-100 mt-2">Add to Cart</button>
+                            <button class="shop-btn">Add to Cart</button>
                         </div>
                     </div>
 
@@ -142,7 +144,7 @@
                             <small>Harp</small>
                             <h6>Nature's Organic Raw Cosmetic Product</h6>
                             <strong>$156.00</strong>
-                            <button class="shop-btn btn btn-dark w-100 mt-2">Add to Cart</button>
+                            <button class="shop-btn">Add to Cart</button>
                         </div>
                     </div>
 
@@ -154,7 +156,7 @@
                             <small>Splash</small>
                             <h6>Moisture Filling Shampoo</h6>
                             <strong>$175.00</strong>
-                            <button class="shop-btn btn btn-dark w-100 mt-2">Add to Cart</button>
+                            <button class="shop-btn">Add to Cart</button>
                         </div>
                     </div>
 
