@@ -59,7 +59,7 @@
                                 <img src="assets/images/na-mp-1.webp">
                             </div>
                             <small>Harp</small>
-                            <h6>Face Moisturizer With Vitamin E</h6>
+                            <a href="product-details.php"><h6>Face Moisturizer With Vitamin E</h6></a>
                             <strong>$380.00</strong>
                             <button class="shop-btn">Add to Cart</button>
                         </div>
@@ -72,7 +72,7 @@
                                 <img src="assets/images/na-mp-2.webp">
                             </div>
                             <small>Harp</small>
-                            <h6>Nature's Organic Raw Cosmetic Product</h6>
+                            <a href="product-details.php"><h6>Nature's Organic Raw Cosmetic Product</h6></a>
                             <strong>$156.00</strong>
                             <button class="shop-btn">Add to Cart</button>
                         </div>
@@ -84,7 +84,7 @@
                                 <img src="assets/images/na-mp-3.webp">
                             </div>
                             <small>Splash</small>
-                            <h6>Moisture Filling Shampoo</h6>
+                           <a href="product-details.php"><h6>Moisture Filling Shampoo</h6></a>
                             <strong>$175.00</strong>
                             <button class="shop-btn">Add to Cart</button>
                         </div>
@@ -95,7 +95,7 @@
                                 <img src="assets/images/na-mp-1.webp">
                             </div>
                             <small>Harp</small>
-                            <h6>Face Moisturizer With Vitamin E</h6>
+                            <a href="product-details.php"><h6>Face Moisturizer With Vitamin E</h6></a>
                             <strong>$380.00</strong>
                             <button class="shop-btn">Add to Cart</button>
                         </div>
@@ -107,7 +107,7 @@
                                 <img src="assets/images/na-mp-2.webp">
                             </div>
                             <small>Harp</small>
-                            <h6>Nature's Organic Raw Cosmetic Product</h6>
+                            <a href="product-details.php"><h6>Nature's Organic Raw Cosmetic Product</h6></a>
                             <strong>$156.00</strong>
                             <button class="shop-btn">Add to Cart</button>
                         </div>
@@ -119,7 +119,7 @@
                                 <img src="assets/images/na-mp-3.webp">
                             </div>
                             <small>Splash</small>
-                            <h6>Moisture Filling Shampoo</h6>
+                            <a href="product-details.php"><h6>Moisture Filling Shampoo</h6></a>
                             <strong>$175.00</strong>
                             <button class="shop-btn">Add to Cart</button>
                         </div>
@@ -130,7 +130,7 @@
                                 <img src="assets/images/na-mp-1.webp">
                             </div>
                             <small>Harp</small>
-                            <h6>Face Moisturizer With Vitamin E</h6>
+                            <a href="product-details.php"><h6>Face Moisturizer With Vitamin E</h6></a>
                             <strong>$380.00</strong>
                             <button class="shop-btn">Add to Cart</button>
                         </div>
@@ -142,7 +142,7 @@
                                 <img src="assets/images/na-mp-2.webp">
                             </div>
                             <small>Harp</small>
-                            <h6>Nature's Organic Raw Cosmetic Product</h6>
+                           <a href="product-details.php"> <h6>Nature's Organic Raw Cosmetic Product</h6></a>
                             <strong>$156.00</strong>
                             <button class="shop-btn">Add to Cart</button>
                         </div>
@@ -154,7 +154,7 @@
                                 <img src="assets/images/na-mp-3.webp">
                             </div>
                             <small>Splash</small>
-                            <h6>Moisture Filling Shampoo</h6>
+                           <a href="product-details.php"> <h6>Moisture Filling Shampoo</h6></a>
                             <strong>$175.00</strong>
                             <button class="shop-btn">Add to Cart</button>
                         </div>
