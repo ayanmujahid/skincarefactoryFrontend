@@ -84,7 +84,7 @@ ul.navbar-nav {
 
 .hero-section {
   min-height: 68vh;
-  background: url("/assets/images/Slider-1.webp") no-repeat center center;
+  background: url("../assets/images/Slider-1.webp") no-repeat center center;
   background-size: cover;
 }
 
@@ -256,7 +256,7 @@ ul.navbar-nav {
 /* what we do */
 .whatwedo-section {
   min-height: 80vh;
-  background: url("/assets/images/what-we-do.webp") no-repeat center center;
+  background: url("../assets/images/what-we-do.webp") no-repeat center center;
   background-size: cover;
 }
 
@@ -452,7 +452,7 @@ section.extra-feature-category.py-5 {
 
 .essential-video {
   position: relative;
-  background: url("/assets/images/v1.webp") center/cover no-repeat;
+  background: url("../assets/images/v1.webp") center/cover no-repeat;
   padding: 140px 0;
 }
 
@@ -635,7 +635,7 @@ section.extra-feature-category.py-5 {
 .testimonial-section {
   position: relative;
   padding: 120px 0;
-  background: url("/assets/images/b-1.webp") center/cover no-repeat;
+  background: url("../assets/images/b-1.webp") center/cover no-repeat;
 }
 
 .testimonial-section::before {
@@ -808,7 +808,7 @@ section.extra-feature-category.py-5 {
 /* footer */
 .amiy-footer {
   /* Replace with your actual image path */
-  background: url('/assets/images/footer.webp') no-repeat center center/cover;
+  background: url('../assets/images/footer.webp') no-repeat center center/cover;
   background-color: #e5d1b8;
   /* Fallback beige color */
   color: #000;
