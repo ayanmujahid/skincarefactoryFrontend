@@ -93,6 +93,32 @@
   });
 </script>
 
+<script>
+const openCart = document.getElementById("openCart");
+const cartModal = document.querySelector(".cart-modal");
+const overlay = document.querySelector(".cart-modal-overlay");
+const closeBtn = document.querySelector(".close-cart");
+
+openCart.addEventListener("click", function() {
+  cartModal.classList.add("active");
+  overlay.classList.add("active");
+});
+
+closeBtn.addEventListener("click", closeCart);
+overlay.addEventListener("click", closeCart);
+
+function closeCart() {
+  cartModal.classList.remove("active");
+  overlay.classList.remove("active");
+}
+</script>
+<script>
+document.addEventListener("click", function(e){
+  if(e.target.classList.contains("remove-item")){
+    e.target.closest(".cart-item").remove(); // dummy remove
+  }
+});
+</script>
 
 
 

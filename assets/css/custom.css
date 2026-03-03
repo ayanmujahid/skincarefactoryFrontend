@@ -1478,7 +1478,7 @@ section.extra-feature-category.py-5 {
 
 .cart-item {
   position: relative;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   border-radius: 8px;
   padding: 30px;
   margin-bottom: 30px;
@@ -1607,4 +1607,133 @@ section.extra-feature-category.py-5 {
   margin-bottom: 15px;
   border: 1px solid #ddd;
   border-radius: 4px;
+}
+
+
+/* Authentication */
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fbf5ec;
+}
+
+.account form {
+    background: #f2ddc3;
+    padding: 40px;
+    width: 834px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.account input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    outline: none;
+}
+
+.account button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.account-links {
+    margin-top: 25px;
+    border-top: 2px solid #000;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.account-links a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+/* Cart Modal */
+.cart-modal {
+  position: fixed;
+  top: 0;
+  right: -400px;
+  width: 400px;
+  height: 100vh;
+  background: #fbf5ec;
+  z-index: 1050;
+  transition: 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.cart-modal.active {
+  right: 0;
+}
+
+.cart-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.4);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+  z-index: 1040;
+}
+
+.cart-modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.cart-header, .cart-footer {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-footer {
+  border-top: 1px solid #ddd;
+  margin-top: auto;
+}
+
+.cart-body {
+  padding: 15px;
+  /* overflow-y: auto; */
+}
+
+.close-cart {
+  background: none;
+  border: none;
+  font-size: 24px;
+}
+
+.qty button {
+  border: 1px solid #ccc;
+  background: #fff;
+  width: 30px;
+}
+.remove-item {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
 }
