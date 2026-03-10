@@ -130,41 +130,41 @@
                 <button class="btn btn-dark w-100 mt-2">Add to Cart</button>
             </div>
 
-            <!-- Product 2 -->
-            <div class="product-card">
-                <img src="assets/images/na-mp-2.webp" class="img-fluid" alt="">
-                <small class="text-muted d-block mt-3">Lust</small>
-                <h6>Professional Repair Shampoo With Protein And Gold</h6>
-                <strong>$299.00</strong>
-                <button class="btn btn-dark w-100 mt-2">Add to Cart</button>
-            </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="assets/images/na-mp-2.webp" class="img-fluid" alt="">
+                    <small class="text-muted d-block mt-3">Lust</small>
+                    <h6>Professional Repair Shampoo With Protein And Gold</h6>
+                    <strong>$299.00</strong>
+                    <button class="btn btn-dark w-100 mt-2">Add to Cart</button>
+                </div>
 
-            <!-- Product 3 -->
-            <div class="product-card">
-                <img src="assets/images/na-mp-3.webp" class="img-fluid" alt="">
-                <small class="text-muted d-block mt-3">Splash</small>
-                <h6>Soft Body Lotion With Honey</h6>
-                <strong>$25.00</strong>
-                <button class="btn btn-dark w-100 mt-2">Add to Cart</button>
-            </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="assets/images/na-mp-3.webp" class="img-fluid" alt="">
+                    <small class="text-muted d-block mt-3">Splash</small>
+                    <h6>Soft Body Lotion With Honey</h6>
+                    <strong>$25.00</strong>
+                    <button class="btn btn-dark w-100 mt-2">Add to Cart</button>
+                </div>
 
-            <!-- Product 4 (Sold out) -->
-            <div class="product-card">
-                <img src="assets/images/na-mp-4.webp" class="img-fluid" alt="">
-                <small class="text-muted d-block mt-3">Splash</small>
-                <h6>Erotic Ayurvedic Lotion</h6>
-                <strong>$12.00</strong>
-                <button class="btn btn-secondary w-100 mt-2">Sold Out</button>
-            </div>
+                <!-- Product 4 (Sold out) -->
+                <div class="product-card">
+                    <img src="assets/images/na-mp-4.webp" class="img-fluid" alt="">
+                    <small class="text-muted d-block mt-3">Splash</small>
+                    <h6>Erotic Ayurvedic Lotion</h6>
+                    <strong>$12.00</strong>
+                    <button class="btn btn-secondary w-100 mt-2">Sold Out</button>
+                </div>
 
-            <!-- Product 5 -->
-            <div class="product-card">
-                <img src="assets/images/na-mp-5.webp" class="img-fluid" alt="">
-                <small class="text-muted d-block mt-3">Splash</small>
-                <h6>Skin Naturals BB Cream Vitamin C</h6>
-                <strong>$173.00</strong>
-                <button class="btn btn-dark w-100 mt-2">Add to Cart</button>
-            </div>
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <img src="assets/images/na-mp-5.webp" class="img-fluid" alt="">
+                    <small class="text-muted d-block mt-3">Splash</small>
+                    <h6>Skin Naturals BB Cream Vitamin C</h6>
+                    <strong>$173.00</strong>
+                    <button class="btn btn-dark w-100 mt-2">Add to Cart</button>
+                </div>
 
         </div>
 
